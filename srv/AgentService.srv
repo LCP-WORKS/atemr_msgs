@@ -1,0 +1,14 @@
+#power features
+std_msgs/Bool queryShutdown
+std_msgs/Bool initiateShutdown
+
+#robot base features
+std_msgs/Bool is_status_update
+std_msgs/Bool canMove
+std_msgs/Bool isAlive
+std_msgs/Bool hasFrontIRSensor
+std_msgs/Bool hasRearIRSensor
+
+---
+#response
+std_msgs/Bool canShutdown

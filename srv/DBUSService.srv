@@ -1,0 +1,16 @@
+#query
+std_msgs/Bool queryPower
+std_msgs/Bool queryIP
+std_msgs/Bool setNetwork
+std_msgs/Bool triggerPowerOFF #should only be activated from the HARDWARE upon AGENT acknowledgement
+std_msgs/Bool queryConnection
+
+#data
+std_msgs/String WIFI_SSID
+std_msgs/String WIFI_PASS
+
+---
+#response
+std_msgs/String IP_Address
+std_msgs/Bool canPowerOFF
+std_msgs/Bool isConnected

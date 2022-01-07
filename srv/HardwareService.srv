@@ -1,0 +1,4 @@
+#power features
+std_msgs/Bool powerON_ACK
+std_msgs/Bool shutdownSystem
+std_msgs/Bool resetMotors # triggers motor error clearance and reset

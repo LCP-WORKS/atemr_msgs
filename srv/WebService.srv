@@ -1,0 +1,33 @@
+#GENERAL operations
+std_msgs/Bool is_operator_action
+std_msgs/Bool initiateShutdown #operator request to turn off
+std_msgs/Bool initiateRestart #operator request to '**warm**' restart system (affects only PRIMARY core)
+
+std_msgs/Bool is_stream
+std_msgs/Bool captureImage
+uint8 START_VID = 81
+uint8 SAVE_VID = 82
+uint8 CANCEL_VID = 83
+uint8 captureVideo
+
+std_msgs/Bool is_man_auto
+uint8 MANUAL_MODE = 1
+uint8 AUTO_MODE = 2
+uint8 manAuto
+
+#MAP operations
+std_msgs/Bool is_map_action
+uint8 BEGIN_NEW_MAP = 31
+uint8 CHANGE_MAP = 32
+uint8 SAVE_NEW_MAP = 33
+uint8 DISCARD_NEW_MAP = 34
+uint8 mapAction
+std_msgs/String mapName
+
+#EXECUTION operations
+std_msgs/Bool is_goal_action #true if goal is being sent to the base
+move_base_msgs/MoveBaseGoal goal
+
+---
+std_msgs/Bool canExecute
+std_msgs/String rejectReason #populated if unable to perform requested service
