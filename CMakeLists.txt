@@ -20,6 +20,7 @@ find_package(catkin REQUIRED COMPONENTS
    Status.msg
    AgentStatus.msg
    WebStatus.msg
+   SpeedRampStatus.msg
  )
 
 ## Generate services in the 'srv' folder
@@ -29,6 +30,7 @@ find_package(catkin REQUIRED COMPONENTS
    AgentService.srv
    HardwareService.srv
    WebService.srv
+   RobotAwareness.srv
  )
 
 ## Generate actions in the 'action' folder

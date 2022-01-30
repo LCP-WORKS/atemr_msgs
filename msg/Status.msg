@@ -6,3 +6,5 @@ uint16[2] encoder
 
 uint8 ERR = 9
 int8[2] state
+
+std_msgs/Bool is_emergency
