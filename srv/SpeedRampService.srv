@@ -1,0 +1,14 @@
+#GENERAL operations
+std_msgs/Bool is_awareness_cmd
+std_msgs/Bool set_awareness
+
+std_msgs/Bool is_stop_dist_cmd
+float32 stop_distance
+
+std_msgs/Bool is_slow_dist_cmd
+float32 slow_distance
+
+std_msgs/Bool restore_distances
+
+---
+std_msgs/Bool status

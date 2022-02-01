@@ -1,5 +1,0 @@
-#GENERAL operations
-std_msgs/Bool set_awareness
-
----
-std_msgs/Bool status

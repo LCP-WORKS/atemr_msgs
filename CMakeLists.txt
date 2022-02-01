@@ -30,7 +30,7 @@ find_package(catkin REQUIRED COMPONENTS
    AgentService.srv
    HardwareService.srv
    WebService.srv
-   RobotAwareness.srv
+   SpeedRampService.srv
  )
 
 ## Generate actions in the 'action' folder
