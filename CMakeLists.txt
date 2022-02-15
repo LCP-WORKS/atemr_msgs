@@ -31,6 +31,7 @@ find_package(catkin REQUIRED COMPONENTS
    HardwareService.srv
    WebService.srv
    SpeedRampService.srv
+   NodeControllerService.srv
  )
 
 ## Generate actions in the 'action' folder

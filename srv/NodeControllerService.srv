@@ -1,0 +1,27 @@
+#start basics [base, imu, lidar, camera, rloc_odom]
+std_msgs/Bool is_basics
+std_msgs/Bool basics_action    # TRUE -> start (restart) # FALSE -> shutdown
+
+#singular nodes
+std_msgs/Bool is_imu
+std_msgs/Bool imu_action
+
+std_msgs/Bool is_lidar
+std_msgs/Bool lidar_action
+
+std_msgs/Bool is_camera
+std_msgs/Bool camera_action
+
+std_msgs/Bool is_rloc_odom
+std_msgs/Bool rloc_odom_action
+
+std_msgs/Bool is_rloc_world
+std_msgs/Bool rloc_world_action
+
+std_msgs/Bool is_base
+std_msgs/Bool base_action
+
+
+---
+#response
+std_msgs/Bool result
