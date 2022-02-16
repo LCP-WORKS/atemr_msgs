@@ -25,3 +25,4 @@ std_msgs/Bool base_action
 ---
 #response
 std_msgs/Bool result
+uint8 hardwareStatus
