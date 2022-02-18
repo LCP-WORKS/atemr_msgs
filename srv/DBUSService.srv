@@ -3,6 +3,7 @@ std_msgs/Bool queryPower
 std_msgs/Bool queryIP
 std_msgs/Bool setNetwork
 std_msgs/Bool triggerPowerOFF #should only be activated from the HARDWARE upon AGENT acknowledgement
+std_msgs/Bool triggerRestart
 std_msgs/Bool queryConnection
 
 #data

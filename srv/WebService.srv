@@ -26,7 +26,6 @@ std_msgs/String mapName
 
 #EXECUTION operations
 std_msgs/Bool is_goal_action #true if goal is being sent to the base
-move_base_msgs/MoveBaseGoal goal
 std_msgs/Bool cancel_goal
 
 ---

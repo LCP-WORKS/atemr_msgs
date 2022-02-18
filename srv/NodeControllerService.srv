@@ -21,6 +21,12 @@ std_msgs/Bool rloc_world_action
 std_msgs/Bool is_base
 std_msgs/Bool base_action
 
+std_msgs/Bool is_mapserver
+std_msgs/Bool mapserver_action
+
+std_msgs/Bool is_mapping
+std_msgs/Bool mapping_action
+
 
 ---
 #response
